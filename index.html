@@ -4,73 +4,173 @@
 <head>
   <meta charset="UTF-8">
   <title>About | Anthony Mahramus</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous" media="screen">
+  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style2.css">
 </head>
 
 <body>
+  <!-- Start of navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container-fluid navbar-custom">
 
-  <header id="masthead">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="row">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+            aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="col-xs-12 phone-nav">
+            <a class="navbar-brand" href="#" id="logo">Anthony Mahramus</a>
+          </div>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right navbar-right-custom">
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+            <li>
+              <a href="portfolio.html">Portfolio</a>
+            </li>
+            <li>
+              <a href="index.html">About</a>
+            </li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+      </div>
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+  <!-- End of navbar -->
+
+
+  <!-- <header id="masthead">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a class="navbar-brand" href="#">Anthony Mahramus</a>
-          <div class="collapse navbar-collapse" id="navbarText">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">Anthony Mahramus</a>
+        <div class="collapse navbar-collapse" id="navbarText">
           <div class="navbar-nav mr-auto">
-              
-          </div> 
-            <span class="navbar-text">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="about.html">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>  
-            
-            </span>
+
           </div>
-        </nav> 
+          <span class="navbar-text">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+
+          </span>
+        </div>
+      </nav>
     </div>
-  </header>
+  </header> -->
 
-      <div id="main-container" class="container">
-        <section class="main-section">
-          <h1>About Me</h1>
-    
-          <img src="assets/images/mahramusprofilephoto.jpg" class="auth-image img-responsive" alt="Anthony Mahramus photo">
-    
-          <p>I am a 35-year-old digital marketing professional aspiring towards a career in web development. The CWRU Boot Camp has helped push me in the right direction. Or should I say it <em>git pushed</em> me?</p>
-    
-          <p>Nevermind. Nobody should say that.</p>
 
-        </section>
-    
-        <section class="sidebar">
-          <div id="connect">
-            <h2>Check Me Out</h2>
-    
-            <a href="#"><img src="assets/images/github-128.png" class="social img-responsive" alt="GitHub" /></a>
-            <a href="#"><img src="assets/images/linkedin-128.png" class="social img-responsive" alt="LinkedIn" /></a>
-            <a href="#"><img src="assets/images/stackoverflow-128.png" class="social img-responsive" alt="Stack Overflow" /></a>
-          </div>
-        </section>
+  <!-- Start of content wrap -->
+  <div class="wrap">
+    <div class="container">
+      <section class="row">
+        <div class="col-md-8">
+          <article class="about-me-content">
+            <h1 class="about-me-header">About Me</h1>
+            <hr class="about-me-hr" />
+            <img src="assets/images/mahramusprofilephoto.jpg" id="anth-image" alt="Anthony Mahramus photo">
+            <p>I am a 35-year-old digital marketing professional aspiring towards a career in web development. The CWRU Boot
+              Camp has helped push me in the right direction. Or should I say it
+              <em>git pushed</em> me?</p>
+
+            <p>Nevermind. Nobody should say that.</p>
+          </article>
+        </div>
+        <div class="col-md-4">
+
+          <!-- Start of Connect With Me Area -->
+          <section id="connect-with-me-area">
+            <div class="connect-with-me-content">
+              <h1 class="connect-with-me-header">Connect With Me</h1>
+              <hr />
+              <div id="images">
+                <a href="https://github.com/mahramus" target="_blank">
+                  <img src="assets/images/github-128.png" alt="GitHub" class="connect-with-me-photo">
+                </a>
+                <a href="https://www.linkedin.com/in/anthonymahramus" target="_blank">
+                  <img src="assets/images/linkedin-128.png" alt="LinkedIn" class="connect-with-me-photo">
+                </a>
+                <a href="https://stackoverflow.com/users/9104340/anthony-mahramus?tab=profile" target="_blank">
+                  <img src="assets/images/stackoverflow-128.png" alt="Stack Overflow" class="connect-with-me-photo">
+                </a>
+              </div>
+            </div>
+          </section>
+          <!-- End of the Connect With Me Area -->
+
+        </div>
+      </section>
+    </div>
+  </div>
+  <!-- End of content wrap -->
+
+  <!-- <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>About Me</h1>
+
+      <img src="assets/images/mahramusprofilephoto.jpg" class="auth-image img-responsive" alt="Anthony Mahramus photo">
+
+      <p>I am a 35-year-old digital marketing professional aspiring towards a career in web development. The CWRU Boot Camp
+        has helped push me in the right direction. Or should I say it
+        <em>git pushed</em> me?</p>
+
+      <p>Nevermind. Nobody should say that.</p>
+
+    </section>
+
+    <section class="sidebar">
+      <div id="connect">
+        <h2>Check Me Out</h2>
+
+        <a href="#">
+          <img src="assets/images/github-128.png" class="social img-responsive" alt="GitHub" />
+        </a>
+        <a href="#">
+          <img src="assets/images/linkedin-128.png" class="social img-responsive" alt="LinkedIn" />
+        </a>
+        <a href="#">
+          <img src="assets/images/stackoverflow-128.png" class="social img-responsive" alt="Stack Overflow" />
+        </a>
       </div>
+    </section>
+  </div> -->
 
- 
-
-  <footer>
-    <div>
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
       Copyright &copy; 2018 Anthony Mahramus
-    </div>
+    </p>
   </footer>
+  <!-- End of footer -->
+
+
 
 
 </body>
