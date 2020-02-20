@@ -6,7 +6,7 @@ body {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
   /* Visual */
-  background-image: url("../images/hypnotize.png");
+  background-image: url("../images/dynamic-style.png");
 }
 
 html {
@@ -84,6 +84,7 @@ html {
 .about-me-content > p {
   /* Box-model */
   padding-top: 20px;
+  padding-bottom: 20px;
 
   /* Typography */
   font-size: 16px;
@@ -177,7 +178,7 @@ html {
   padding-top: 3px;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: rgb(155, 161, 226);
 }
 
 /* ----------------- */
@@ -208,7 +209,7 @@ html {
   /* Typography */
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: rgb(155, 161, 226);
 }
 
 #name_input,
@@ -254,7 +255,7 @@ html {
   color: #fff;
 
   /* Visual */
-  background-color: #4aaaa5;
+  background-color: rgb(155, 161, 226);
   border: 0;
 }
 
